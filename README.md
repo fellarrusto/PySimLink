@@ -18,12 +18,27 @@ This repository contains a Python wrapper for running Simulink models from MATLA
 
 ## Setup
 
-2. **Clone the Repository**: Clone or download this repository to your local machine.
+1. **Clone the Repository**: Clone or download this repository to your local machine.
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/fellarrusto/PySimLink.git
    cd PySimLink
    ```
+
+2. **Create and Activate a Virtual Environment** (optional, but recommended): Before installing the dependencies, it's a good practice to create a virtual environment. This can be done using the following commands:
+
+   - For Windows:
+     ```cmd
+     python -m venv venv
+     .\venv\Scripts\activate
+     ```
+
+   - For macOS and Linux:
+     ```bash
+     python3 -m venv venv
+     source venv/bin/activate
+     ```
+
 
 3. **Install Python Dependencies**: Ensure you have the required Python packages installed. You can install them using pip:
 
@@ -33,7 +48,7 @@ This repository contains a Python wrapper for running Simulink models from MATLA
 
 ## Running the Example
 
-2. **Run the Example Script**: Execute `testscript.py` to run the simulation. This script sets up model parameters, runs the simulation, and plots the results using matplotlib.
+**Run the Example Script**: Execute `testscript.py` to run the simulation. This script sets up model parameters, runs the simulation, and plots the results using matplotlib.
 
    ```bash
    python testscript.py
